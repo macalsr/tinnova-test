@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b62cb6de-8b6d-4380-841f-37dd708b8f16" name="Changes" comment="primeiro commit">
-      <change beforePath="$PROJECT_DIR$/tinova-spa/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/tinova-spa/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinova-spa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tinova-spa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinova-spa/src/main/java/com/teste/tinovaspa/TinovaSpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinova-spa/src/main/java/com/teste/tinovaspa/TinovaSpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinova-spa/src/test/java/com/teste/tinovaspa/TinovaSpaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinova-spa/src/test/java/com/teste/tinovaspa/TinovaSpaApplicationTests.java" afterDir="false" />
+    <list default="true" id="b62cb6de-8b6d-4380-841f-37dd708b8f16" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/tinnova/src/test/java/com/project/tinnova/tinnova/teste/service/VeiculosjpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/container/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/container/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/model/Veiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/model/Veiculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/repository/VeiculosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/repository/VeiculosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/rest/VeiculosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/rest/VeiculosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/service/VeiculosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/service/VeiculosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/service/dto/VeiculosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/service/dto/VeiculosDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/service/impl/VeiculosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/java/com/project/tinnova/service/impl/VeiculosServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/resources/config/liquibase/changelogs/populando_tabela.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/resources/config/liquibase/changelogs/populando_tabela.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinnova/src/main/resources/config/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tinnova/src/main/resources/config/liquibase/master.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +26,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,9 +54,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "/home/maria/tinova-test",
+    "last_opened_file_path": "/home/maria/tinnova-test",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "8ebaf4c4814bc3c0d824c4b3e66eee58"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -43,6 +65,23 @@
     ]
   }
 }]]></component>
+  <component name="RunManager" selected="Docker.container: Compose Deployment">
+    <configuration name="TinovaSpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tinnova-spa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.teste.tinovaspa.TinovaSpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="container: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="tinnova-spa/container/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +92,11 @@
       <updated>1657282981029</updated>
       <workItem from="1657282983772" duration="179000" />
       <workItem from="1657283238068" duration="1441000" />
+      <workItem from="1657285185777" duration="229000" />
+      <workItem from="1657285426054" duration="621000" />
+      <workItem from="1657286102450" duration="240000" />
+      <workItem from="1657309146144" duration="34000" />
+      <workItem from="1657328277783" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit">
       <created>1657283278679</created>
@@ -75,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657284626440</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first">
+      <created>1657309163070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657309163070</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,8 +146,10 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/tinova" />
+      <path value="$PROJECT_DIR$/tinnova-spa" />
     </ignored-roots>
     <MESSAGE value="primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro commit" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
