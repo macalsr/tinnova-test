@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tinova-spa" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/votos-eleitores" vcs="Git" />
   </component>
 </project>
