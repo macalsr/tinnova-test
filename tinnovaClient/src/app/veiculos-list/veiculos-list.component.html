@@ -1,0 +1,31 @@
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Veiculo</th>
+        <th scope="col">marca</th>
+        <th scope="col">ano</th>
+        <th scope="col">descricao</th>
+        <th scope="col">vendido</th>
+        <th scope="col">createdAt</th>
+        <th scope="col">updatedAt</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let veiculo of veiculos">
+        <td>{{ veiculo.veiculo }}</td>
+        <td>{{ veiculo.marca }}</td>
+        <td>{{ veiculo.ano }}</td>
+        <td>{{ veiculo.descricao }}</td>
+        <td>{{ veiculo.vendido }}</td>
+        <td>{{ veiculo.createdAt }}</td>
+        <td>{{ veiculo.updatedAt }}</td>
+        <button type="delete" class="btn-danger" (click)="delete(veiculo.id)">Veiculos</button>
+        <button type="update" class="btn-info" (click)="update()">Veiculos</button>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

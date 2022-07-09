@@ -1,0 +1,48 @@
+<div class="card my-5">
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit()" #veiculoForm="ngForm">
+      <div class="form-group">
+        <label for="veiculo">Veiculo</label>
+        <input type="text" [(ngModel)]="veiculo.veiculo"
+               class="form-control"
+               id="veiculo"
+               name="veiculo"
+               placeholder="Nome do veiculo">
+      </div>
+      <div class="form-group">
+        <label for="marca">Marca</label>
+        <input type="text" [(ngModel)]="veiculo.marca"
+               class="form-control"
+               id="marca"
+               name="marca"
+               placeholder="Nome da marca">
+      </div>
+      <div class="form-group">
+        <label for="ano">Ano</label>
+        <input type="text" [(ngModel)]="veiculo.ano"
+               class="form-control"
+               id="ano"
+               name="ano"
+               placeholder="Ano do Veiculo">
+      </div>
+      <div class="form-group">
+        <label for="descricao">descricao</label>
+        <input type="text" [(ngModel)]="veiculo.descricao"
+               class="form-control"
+               id="descricao"
+               name="descricao"
+               placeholder="descricao do veiculo">
+      </div>
+      <div class="form-group">
+        <label for="vendido">Vendido</label>
+        <input type="checkbox" [(ngModel)]="veiculo.vendido"
+               class="form-control"
+               id="vendido"
+               name="vendido"
+               placeholder="true">
+      </div>
+      <button type="submit" [disabled]="!veiculoForm.form.valid" (click)="onSubmit()"
+              class="btn btn-info">Submit</button>
+    </form>
+  </div>
+</div>
