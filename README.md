@@ -32,18 +32,18 @@ Suba o container na pasta tinnova-spa/tinnova/container/:
 sudo docker-compose up -d
 ```
 
-Atualize as dependencias na pasta tinnova-spa/tinnova/ com o comando:
+Atualize as dependencias e rodar o liquibase, na pasta tinnova-spa/tinnova/ execute o comando:
 ```
 mvn clean install
 ```
 Suba o back end com o spring boot em sua IDE de preferencia.
 
-Instale as dependencias do FrontEnd na pasta tinnova-spa/tinnovaClient com o comando:
+Instale as dependencias do FrontEnd na pasta tinnova-spa/tinnovaClient execute o comando:
 ```
 npm install
 ```
 
-Suba o front end com o comando:
+Suba o front end execute o comando:
 ```
 npm start
 ```
@@ -58,10 +58,8 @@ npm start
 	Localizado na pasta: soma3e5
 - Cadastro de veículos
 	Localizado na pasta: tinnova-spa
-	
-	
-#### Licensa
 
+
+## 🍜 Licença
 Projeto criado por Maria Carolina Santana Ribeiro
-[⬆ Voltar ao topo](# Tinnova Teste)<br>
 
