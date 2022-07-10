@@ -16,3 +16,4 @@ public class Soma3e5 {
         System.out.println("A soma dos multiplos de 3 e 5 abaixo de " + numEnt +", é: " + res);
     }
 }
+
