@@ -29,23 +29,23 @@ Para instalar o projeto, siga estas etapas:
 Suba o container na pasta tinnova-spa/tinnova/container/:
 
 ```
-"sudo docker-compose up -d"
+sudo docker-compose up -d
 ```
 
 Atualize as dependencias na pasta tinnova-spa/tinnova/ com o comando:
 ```
-"mvn clean install"
+mvn clean install
 ```
 Suba o back end com o spring boot em sua IDE de preferencia.
 
 Instale as dependencias do FrontEnd na pasta tinnova-spa/tinnovaClient com o comando:
 ```
-"npm install"
+npm install
 ```
 
 Suba o front end com o comando:
 ```
-"npm start"
+npm start
 ```
 ## 🚀 Localização dos exercicios Tinnova-test
 - Votos em relação ao total de eleitores

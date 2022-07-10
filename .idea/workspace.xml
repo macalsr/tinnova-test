@@ -4,74 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b62cb6de-8b6d-4380-841f-37dd708b8f16" name="Changes" comment="generating client">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/e2e/tsconfig.e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/src/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinnovaClient/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tinnova-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tinnova-test.iml" afterDir="false" />
+    <list default="true" id="b62cb6de-8b6d-4380-841f-37dd708b8f16" name="Changes" comment="read-me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinnova-client/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "/home/maria/tinnova-test/tinnovaClient",
+    "last_opened_file_path": "/home/maria/tinnova-test",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "8ebaf4c4814bc3c0d824c4b3e66eee58",
@@ -167,6 +102,7 @@
       <workItem from="1657309146144" duration="34000" />
       <workItem from="1657328277783" duration="34000" />
       <workItem from="1657377908367" duration="5444000" />
+      <workItem from="1657464062645" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit">
       <created>1657283278679</created>
@@ -203,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657378180429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="read-me">
+      <created>1657464123593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657464123593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +172,7 @@
     <MESSAGE value="primeiro commit" />
     <MESSAGE value="first" />
     <MESSAGE value="generating client" />
-    <option name="LAST_COMMIT_MESSAGE" value="generating client" />
+    <MESSAGE value="read-me" />
+    <option name="LAST_COMMIT_MESSAGE" value="read-me" />
   </component>
 </project>
