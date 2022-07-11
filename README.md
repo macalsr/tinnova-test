@@ -47,6 +47,11 @@ Suba o front end execute o comando:
 ```
 npm start
 ```
+Para acessar o swagger basta o backend da aplicação e acessar ao endereço:
+```
+localhost:8080/swagger-ui.html
+```
+
 ## 🚀 Localização dos exercicios Tinnova-test
 - Votos em relação ao total de eleitores
 	Localizado na pasta: votos-eleitores/
