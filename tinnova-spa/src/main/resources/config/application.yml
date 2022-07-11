@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: tinnova
+    password: tinnova
+  datasource.driverClassName: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:config/liquibase/master.xml

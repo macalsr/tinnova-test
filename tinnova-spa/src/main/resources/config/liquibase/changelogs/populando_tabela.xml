@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet id="20220708" author="maria.ribeiro">
+        <createTable tableName="veiculos">
+            <column name="id" type="int" autoIncrement="true" remarks="identificador tabela veiculo">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="veiculo" type="varchar(50)" remarks="nome veiculo">
+                <constraints nullable="false"/>
+            </column>
+            <column name="marca" type="varchar(50)" remarks="nome marca">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ano" type="int" remarks="ano veiculo">
+                <constraints nullable="false"/>
+            </column>
+            <column name="descricao" type="varchar(500)" remarks="descricao veiculo ">
+                <constraints nullable="false"/>
+            </column>
+            <column name="vendido" type="boolean" remarks="identificador se veiculo foi vendido">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created" type="date" remarks="data criacao">
+            </column>
+            <column name="updated" type="date" remarks="data atualização">
+            </column>
+        </createTable>
+        <createSequence sequenceName="hibernate_sequence" startValue="1" incrementBy="1"/>
+    </changeSet>
+
+</databaseChangeLog>
