@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b62cb6de-8b6d-4380-841f-37dd708b8f16" name="Changes" comment="read-me" />
+    <list default="true" id="b62cb6de-8b6d-4380-841f-37dd708b8f16" name="Changes" comment="read-me">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "/home/maria/Documents/tinnova-test/tinnova-spa",
+    "last_opened_file_path": "/home/maria/Documents/tinnova-test",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "8ebaf4c4814bc3c0d824c4b3e66eee58",
@@ -102,6 +104,7 @@
       <workItem from="1657464062645" duration="262000" />
       <workItem from="1657464775937" duration="66000" />
       <workItem from="1657556218749" duration="8000" />
+      <workItem from="1657556430713" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit">
       <created>1657283278679</created>

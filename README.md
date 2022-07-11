@@ -26,13 +26,13 @@ Antes de começar, verifique se você possui instalado em sua maquina as seguint
 
 Para instalar o projeto, siga estas etapas:
 
-Suba o container na pasta tinnova-spa/tinnova/container/:
+Suba o container na pasta tinnova-spa/container/:
 
 ```
 sudo docker-compose up -d
 ```
 
-Atualize as dependencias e rodar o liquibase, na pasta tinnova-spa/tinnova/ execute o comando:
+Atualize as dependencias e rodar o liquibase, na pasta tinnova-spa/ execute o comando:
 ```
 mvn clean install
 ```
@@ -43,7 +43,7 @@ Instale as dependencias do FrontEnd na pasta tinnova-spa/tinnovaClient execute o
 npm install
 ```
 
-Suba o front end execute o comando:
+Suba o front end execute o comando na pasta tinnova-spa/tinnovaClient :
 ```
 npm start
 ```
