@@ -1,4 +1,3 @@
-# Tinnova Teste
 
 > Projeto para processo seletivo vaga de Dev Backend Tinnova
 
